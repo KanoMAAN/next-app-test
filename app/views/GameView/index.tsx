@@ -10,7 +10,7 @@ function Square({ value, onSquareClick }) {
     </button>
     )
 }
-export default function Board(){
+export default function GameView(){
 
     const [squares, setSquares] = useState(Array(9).fill(null));
     const [xIsNext, setXIsNext] = useState(true);
