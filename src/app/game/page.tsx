@@ -1,4 +1,4 @@
-import GameView from "../views/GameView";
+import GameView from "@/src/views/GameView";
 
 export default function Game() {
 return (
