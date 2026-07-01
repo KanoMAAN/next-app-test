@@ -9,3 +9,12 @@ jobs:
     steps:
       - name: あいさつする
         run: echo "Hello World"   # ④ シェルで Hello World を出力
+      
+      - name: 名前を出す
+        run: echo "私はBobette・Carolineです"
+
+      - name: 日付を出す
+        run: date
+
+      - name: うんこを出す
+        run: exit 1
