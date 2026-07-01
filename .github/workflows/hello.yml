@@ -16,5 +16,5 @@ jobs:
       - name: 日付を出す
         run: date
 
-      - name: うんこを出す
-        run: exit 1
+      # - name: うんこを出す
+      #   run: exit 1
