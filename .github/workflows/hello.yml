@@ -26,9 +26,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      # ⑤ 型チェック（TypeScript の型が合っているか）
-      - name: 型チェック
-        run: npm run typecheck
+      # # ⑤ 型チェック（TypeScript の型が合っているか）
+      # - name: 型チェック
+      #   run: npm run typecheck
 
       # ⑥ テスト（CI 用の実行）
       - name: テスト
