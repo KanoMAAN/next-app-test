@@ -1,0 +1,11 @@
+name: Hello CI                 # ① ワークフローの名前
+
+on:                            # ② いつ動く？
+  pull_request:                #    → Pull Request が作られた・更新されたとき
+
+jobs:
+  hello:                       # ③ ジョブの名前（自由）
+    runs-on: ubuntu-latest     #    どのマシンで動かすか
+    steps:
+      - name: あいさつする
+        run: echo "Hello World"   # ④ シェルで Hello World を出力
